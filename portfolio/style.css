@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: no-repeat;
+    background-color: #800000;
+    font-family: Arial;
+}
+
+header{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+#header-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+section{
+    margin-top: 50px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    background-color: #4d4d4d;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 30px;
+    color: white;
+    padding:50px;
+    font-size: 20px;
+}
+
+#university{
+    margin-top: 10px;
+}
+
+
+#user-image{
+    margin-left: 30px;
+    width: 225px;
+    height: 300px;
+    border-radius: 30px;
+}
